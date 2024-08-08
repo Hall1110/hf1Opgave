@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F64EE39E-8CDC-422E-BBB3-33B90AAF7958}|Strings\\Strings.csproj|c:\\users\\hfgf\\source\\repos\\hf1opgave\\strings\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64EE39E-8CDC-422E-BBB3-33B90AAF7958}|Strings\\Strings.csproj|solutionrelative:strings\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AEF15690-F0D8-44F3-B5BF-0CFB54E28C7E}|Loops\\Loops.csproj|c:\\users\\hfgf\\source\\repos\\hf1opgave\\loops\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEF15690-F0D8-44F3-B5BF-0CFB54E28C7E}|Loops\\Loops.csproj|solutionrelative:loops\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\Loops\\Program.cs",
               "RelativeDocumentMoniker": "Loops\\Program.cs",
               "ToolTip": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\Loops\\Program.cs",
               "RelativeToolTip": "Loops\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA0AAAA",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAcwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T06:15:26.812Z",
+              "WhenOpened": "2024-08-08T11:53:38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\Strings\\Program.cs",
+              "RelativeDocumentMoniker": "Strings\\Program.cs",
+              "ToolTip": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\Strings\\Program.cs",
+              "RelativeToolTip": "Strings\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T08:18:08.882Z",
               "EditorCaption": ""
             }
           ]
