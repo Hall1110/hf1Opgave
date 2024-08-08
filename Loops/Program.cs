@@ -18,8 +18,11 @@
             //Console.WriteLine(ExtractString("++##--##++"));
             //Console.WriteLine(FullSequenceOfLetters("ds"));
             //Console.WriteLine(FullSequenceOfLetters("or"));
-            Console.WriteLine(SumAndAverage(11, 66));
-            Console.WriteLine(SumAndAverage(-10, 0));
+            //Console.WriteLine(SumAndAverage(11, 66));
+            //Console.WriteLine(SumAndAverage(-10, 0));
+            //DrawTriangle();
+            //Console.WriteLine(ToThePowerOf(-2, 3));
+            //Console.WriteLine(ToThePowerOf(5, 5));
         }
 
 
@@ -198,11 +201,11 @@
 
         static string SumAndAverage(int a, int b)
         {
-            int sum = a;
+            double sum = 0;
             int counter = 0;
-            int average = 0;
+            double average = 0;
             int range = b;
-            for (int i = a; i < range; i++)
+            for (int i = a; i <= range; i++)
             {
                 sum += i;
                 counter++;
@@ -213,15 +216,38 @@
         }
 
 
-        static string DrawTriangle()
+        static void DrawTriangle()
         {
-            for (int i = 0; i < 10; i++)
+            int maxHeight = 20;
+            int i, j = 0;
+            int k;
+            int counter = maxHeight - 1;
+
+            for (i = 0; i < maxHeight; i++)
             {
-                for (int j = 0; j < 10; j++)
+                for (k = counter; k >= 0; k--)
                 {
-                    
+                    Console.Write(" ");
                 }
+                for (j = 0; j < i * 2 + 1; j++)
+                {
+                    Console.Write('*');
+                }
+                Console.WriteLine("");
+                counter--;
             }
+        }
+
+
+
+        static int ToThePowerOf(int a, int b)
+        {
+            int exponent = a;
+            for (int i = 1; i < b; i++)
+            {
+                exponent *= a;
+            }
+            return exponent;
         }
     }
 }
