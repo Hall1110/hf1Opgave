@@ -12,6 +12,10 @@
             //Console.WriteLine(LengthOfString("ice cream"));
             //Console.WriteLine(StringInReverseOrder("qwerty"));
             //Console.WriteLine(StringInReverseOrder("oe93 kr"));
+            //Console.WriteLine(NumberOfWords("This is sample sentence"));
+            //Console.WriteLine(NumberOfWords("OK"));
+            Console.WriteLine(RevertWordsOrder("John Doe."));
+            Console.WriteLine(RevertWordsOrder("A, B. C"));
         }
 
 
@@ -76,7 +80,43 @@
 
         static int NumberOfWords(string inputString)
         {
+            int inputStringLength = inputString.Length;
+            char whiteSpace = ' ';
+            char[] inputCharArray = inputString.ToCharArray();
+            int counter = 1;
+            
+            for (int i = 0; i < inputStringLength; i++)
+            {
+                if (inputCharArray[i] == whiteSpace)
+                {
+                    counter++;
+                }
+            }
+            return counter;
+        }
 
+
+
+        static string RevertWordsOrder(string inputString)
+        {
+            int inputStringLength = inputString.Length;
+            int lastIndex = inputStringLength - 1;
+            int firstLetterIndex, lastLetterIndex;
+            string outputString;
+            char[] inputCharArray = inputString.ToCharArray();
+            bool foundFirstLetter, foundLastLetter = false;
+
+
+            for (int i = 0; i < inputStringLength; i++)
+            {
+                if (inputCharArray[i] != '.' && !foundFirstLetter)
+                {
+
+                }
+
+            
+            }
+            return outputString;
         }
     }
 }
