@@ -1,4 +1,8 @@
-﻿namespace Strings
+﻿using System.Collections.Immutable;
+using System.Linq;
+using System.Security.Cryptography;
+
+namespace Strings
 {
     internal class Program
     {
@@ -14,8 +18,15 @@
             //Console.WriteLine(StringInReverseOrder("oe93 kr"));
             //Console.WriteLine(NumberOfWords("This is sample sentence"));
             //Console.WriteLine(NumberOfWords("OK"));
-            Console.WriteLine(RevertWordsOrder("John Doe."));
-            Console.WriteLine(RevertWordsOrder("A, B. C"));
+            //Console.WriteLine(RevertWordsOrder("John Doe."));
+            //Console.WriteLine(RevertWordsOrder("A, B. C"));
+            //Console.WriteLine(HowManyOccurrences("do it now", "do"));
+            //Console.WriteLine(HowManyOccurrences("empty", "d"));
+            //Console.WriteLine(SortCharactersDescending("onomatopoeia"));
+            //Console.WriteLine(SortCharactersDescending("fohjwf42os"));
+            //Console.WriteLine(CompressString("kkkktttrrrrrrrrrr"));
+            //Console.WriteLine(CompressString("p555ppp7www"));
+
         }
 
 
@@ -99,23 +110,62 @@
 
         static string RevertWordsOrder(string inputString)
         {
-            int inputStringLength = inputString.Length;
-            int lastIndex = inputStringLength - 1;
-            int firstLetterIndex, lastLetterIndex;
-            string outputString;
-            char[] inputCharArray = inputString.ToCharArray();
-            bool foundFirstLetter, foundLastLetter = false;
-
-
-            for (int i = 0; i < inputStringLength; i++)
-            {
-                if (inputCharArray[i] != '.' && !foundFirstLetter)
-                {
-
-                }
-
+            string[] reversedString = inputString.Split(' ');
+            Array.Reverse(reversedString);
+            return String.Join(" ", reversedString);
             
+        }
+
+
+
+        static int HowManyOccurrences(string inputString, string inputSearch)
+        {
+            int counter = inputString.Split(new string[] { inputSearch }, StringSplitOptions.None).Length - 1;
+            return counter;
+
+            //return inputString.Split(new string[] { inputSearch }, StringSplitOptions.None).Length - 1;
+        }
+
+
+
+        static string SortCharactersDescending(string inputString)
+        {
+            char[] inputCharArray = inputString.ToCharArray();
+            Array.Sort(inputCharArray);
+            Array.Reverse(inputCharArray);
+            return String.Join("", inputCharArray);
+        }
+
+
+
+
+        static string CompressString(string inputString)
+        {
+            int inputStringLength = inputString.Length;
+            int counter = 1;
+            char[] inputCharArray = inputString.ToCharArray();
+            string outputString = "";
+
+            for (int i = 1; i < inputStringLength; i++)
+            {
+                if (i == inputStringLength - 1)
+                {
+                    counter++;
+                    outputString += inputCharArray[i - 1];
+                    outputString += $"{counter}";
+                }
+                else if (inputCharArray[i] == inputCharArray[i - 1])
+                {
+                    counter++;
+                }
+                else
+                {
+                    outputString += inputCharArray[i - 1];
+                    outputString += $"{counter}";
+                    counter = 1;
+                }
             }
+
             return outputString;
         }
     }
