@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditional Statements", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{AEF15690-F0D8-44F3-B5BF-0CFB54E28C7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{F64EE39E-8CDC-422E-BBB3-33B90AAF7958}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings", "Strings\Strings.csproj", "{F64EE39E-8CDC-422E-BBB3-33B90AAF7958}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{20824F7E-7C01-4257-9015-BDAA9C8971EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicUnitTest", "BasicUnitTest\BasicUnitTest.csproj", "{2F242477-38BC-466A-BF39-58EE83430CE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +37,16 @@ Global
 		{F64EE39E-8CDC-422E-BBB3-33B90AAF7958}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F64EE39E-8CDC-422E-BBB3-33B90AAF7958}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F64EE39E-8CDC-422E-BBB3-33B90AAF7958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F242477-38BC-466A-BF39-58EE83430CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F242477-38BC-466A-BF39-58EE83430CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F242477-38BC-466A-BF39-58EE83430CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F242477-38BC-466A-BF39-58EE83430CE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F242477-38BC-466A-BF39-58EE83430CE4} = {20824F7E-7C01-4257-9015-BDAA9C8971EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F381BF8B-5EF5-456B-BA9E-0810AD805EFF}

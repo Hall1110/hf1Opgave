@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F64EE39E-8CDC-422E-BBB3-33B90AAF7958}|Strings\\Strings.csproj|c:\\users\\hfgf\\source\\repos\\hf1opgave\\strings\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F64EE39E-8CDC-422E-BBB3-33B90AAF7958}|Strings\\Strings.csproj|solutionrelative:strings\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F242477-38BC-466A-BF39-58EE83430CE4}|BasicUnitTest\\BasicUnitTest.csproj|c:\\users\\hfgf\\source\\repos\\hf1opgave\\basicunittest\\basicunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F242477-38BC-466A-BF39-58EE83430CE4}|BasicUnitTest\\BasicUnitTest.csproj|solutionrelative:basicunittest\\basicunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D32E73D-9738-4C81-98C1-A7D0E3EA4AF7}|Basic\\Basic.csproj|c:\\users\\hfgf\\source\\repos\\hf1opgave\\basic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D32E73D-9738-4C81-98C1-A7D0E3EA4AF7}|Basic\\Basic.csproj|solutionrelative:basic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\Strings\\Program.cs",
-              "RelativeDocumentMoniker": "Strings\\Program.cs",
-              "ToolTip": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\Strings\\Program.cs",
-              "RelativeToolTip": "Strings\\Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBsAAAA/AAAA",
+              "DocumentMoniker": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\Basic\\Program.cs",
+              "RelativeDocumentMoniker": "Basic\\Program.cs",
+              "ToolTip": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\Basic\\Program.cs",
+              "RelativeToolTip": "Basic\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T08:18:08.882Z",
+              "WhenOpened": "2024-08-13T07:04:53.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BasicUnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\BasicUnitTest\\BasicUnitTest.cs",
+              "RelativeDocumentMoniker": "BasicUnitTest\\BasicUnitTest.cs",
+              "ToolTip": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\BasicUnitTest\\BasicUnitTest.cs",
+              "RelativeToolTip": "BasicUnitTest\\BasicUnitTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T07:04:01.191Z",
               "EditorCaption": ""
             }
           ]
