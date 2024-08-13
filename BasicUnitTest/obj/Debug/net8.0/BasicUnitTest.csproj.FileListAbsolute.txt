@@ -1,0 +1,7 @@
+C:\Users\HFGF\source\repos\hf1Opgave\BasicUnitTest\bin\Debug\net8.0\CoverletSourceRootsMapping_BasicUnitTest
+C:\Users\HFGF\source\repos\hf1Opgave\BasicUnitTest\obj\Debug\net8.0\BasicUnitTest.csproj.AssemblyReference.cache
+C:\Users\HFGF\source\repos\hf1Opgave\BasicUnitTest\obj\Debug\net8.0\BasicUnitTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HFGF\source\repos\hf1Opgave\BasicUnitTest\obj\Debug\net8.0\BasicUnitTest.AssemblyInfoInputs.cache
+C:\Users\HFGF\source\repos\hf1Opgave\BasicUnitTest\obj\Debug\net8.0\BasicUnitTest.AssemblyInfo.cs
+C:\Users\HFGF\source\repos\hf1Opgave\BasicUnitTest\obj\Debug\net8.0\BasicUnitTest.csproj.CoreCompileInputs.cache
+C:\Users\HFGF\source\repos\hf1Opgave\BasicUnitTest\obj\Debug\net8.0\BasicUnitTest.sourcelink.json

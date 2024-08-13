@@ -12,3 +12,4 @@ C:\Users\HFGF\source\repos\hf1Opgave\Conditional Statements\obj\Debug\net8.0\ref
 C:\Users\HFGF\source\repos\hf1Opgave\Conditional Statements\obj\Debug\net8.0\Conditional Statements.pdb
 C:\Users\HFGF\source\repos\hf1Opgave\Conditional Statements\obj\Debug\net8.0\Conditional Statements.genruntimeconfig.cache
 C:\Users\HFGF\source\repos\hf1Opgave\Conditional Statements\obj\Debug\net8.0\ref\Conditional Statements.dll
+C:\Users\HFGF\source\repos\hf1Opgave\Conditional Statements\obj\Debug\net8.0\Conditional Statements.sourcelink.json

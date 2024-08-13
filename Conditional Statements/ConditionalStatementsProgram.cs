@@ -1,6 +1,6 @@
 ﻿namespace ConditionalStatements
 {
-    internal class Program
+    public class ConditionalStatementsProgram
     {
         static void Main(string[] args)
         {
@@ -139,7 +139,7 @@
 
 
 
-        static bool IfLeapYear(int a)
+        public static bool IfLeapYear(int a)
         {
             
             if (a % 4 == 0)
