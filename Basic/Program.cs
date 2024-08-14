@@ -1,12 +1,12 @@
 ﻿namespace Basic
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             //Console.WriteLine(AddAndMultiply(2, 4, 5));
-            //Console.WriteLine(CelciusToFahrenheit(0));
-            //Console.WriteLine(CelciusToFahrenheit(100));
+            Console.WriteLine(CelciusToFahrenheit(50));
+            Console.WriteLine(CelciusToFahrenheit(10));
             //Console.WriteLine(CelciusToFahrenheit(-300));
             //ElementaryOperations(3, 8);
             //Console.WriteLine(IsResultTheSame(2 + 2, 2 * 2));
@@ -27,7 +27,7 @@
 
 
 
-        static string CelciusToFahrenheit(double celcius)
+        public static string CelciusToFahrenheit(double celcius)
         {
             double fahrenheit = celcius * 1.8 + 32;
             string message;

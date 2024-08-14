@@ -1,6 +1,4 @@
 using ConditionalStatements;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
-using System.Data;
 
 
 namespace ConditionalStatementsUnitTest

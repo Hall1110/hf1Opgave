@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2F242477-38BC-466A-BF39-58EE83430CE4}|BasicUnitTest\\BasicUnitTest.csproj|c:\\users\\hfgf\\source\\repos\\hf1opgave\\basicunittest\\basicunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F242477-38BC-466A-BF39-58EE83430CE4}|BasicUnitTest\\BasicUnitTest.csproj|solutionrelative:basicunittest\\basicunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D32E73D-9738-4C81-98C1-A7D0E3EA4AF7}|Basic\\Basic.csproj|c:\\users\\hfgf\\source\\repos\\hf1opgave\\basic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D32E73D-9738-4C81-98C1-A7D0E3EA4AF7}|Basic\\Basic.csproj|solutionrelative:basic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{26CF79B7-71FD-4669-B0F9-7FB8A1A19CA4}|ConditionalStatementsUnitTest\\ConditionalStatementsUnitTest.csproj|c:\\users\\hfgf\\source\\repos\\hf1opgave\\conditionalstatementsunittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CF79B7-71FD-4669-B0F9-7FB8A1A19CA4}|ConditionalStatementsUnitTest\\ConditionalStatementsUnitTest.csproj|solutionrelative:conditionalstatementsunittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\ConditionalStatementsUnitTest\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "ConditionalStatementsUnitTest\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\ConditionalStatementsUnitTest\\UnitTest1.cs",
-              "RelativeToolTip": "ConditionalStatementsUnitTest\\UnitTest1.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwBUAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\Basic\\Program.cs",
+              "RelativeDocumentMoniker": "Basic\\Program.cs",
+              "ToolTip": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\Basic\\Program.cs",
+              "RelativeToolTip": "Basic\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T11:52:21.844Z",
+              "WhenOpened": "2024-08-14T06:19:12.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "BasicUnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\BasicUnitTest\\BasicUnitTest.cs",
+              "RelativeDocumentMoniker": "BasicUnitTest\\BasicUnitTest.cs",
+              "ToolTip": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\BasicUnitTest\\BasicUnitTest.cs",
+              "RelativeToolTip": "BasicUnitTest\\BasicUnitTest.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T06:18:28.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ConditionalStatementsProgram.cs",
               "DocumentMoniker": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\Conditional Statements\\ConditionalStatementsProgram.cs",
               "RelativeDocumentMoniker": "Conditional Statements\\ConditionalStatementsProgram.cs",
               "ToolTip": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\Conditional Statements\\ConditionalStatementsProgram.cs",
               "RelativeToolTip": "Conditional Statements\\ConditionalStatementsProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA5wJ8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T11:49:35.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\ConditionalStatementsUnitTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "ConditionalStatementsUnitTest\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\HFGF\\source\\repos\\hf1Opgave\\ConditionalStatementsUnitTest\\UnitTest1.cs",
+              "RelativeToolTip": "ConditionalStatementsUnitTest\\UnitTest1.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T11:52:21.844Z",
               "EditorCaption": ""
             }
           ]

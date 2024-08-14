@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConditionalStatementsUnitTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e3df52d98d672609273186a0ba2ced7561f40fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f7ae3ae412e0c5d65b1d4eed53a458b2d288918")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConditionalStatementsUnitTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConditionalStatementsUnitTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
